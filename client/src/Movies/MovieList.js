@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import MovieCard from "./MovieCard";
+import React from "react"
+import { Link } from "react-router-dom"
+import MovieCard from "./MovieCard"
 
 function MovieList({ movies }) {
   return (
@@ -13,7 +13,7 @@ function MovieList({ movies }) {
         ))
       }
     </div>
-  );
+  )
 }
 
-export default MovieList;
+export default MovieList
