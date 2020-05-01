@@ -1,5 +1,5 @@
-import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import React from 'react'
+import { NavLink, Link } from 'react-router-dom'
 
 function SavedList({ list }) {
   return (
@@ -14,13 +14,13 @@ function SavedList({ list }) {
           >
             <span className="saved-movie">{movie.title}</span>
           </NavLink>
-        );
+        )
       })}
       <div className="home-button">
         <Link to="/">Home</Link>
       </div>
     </div>
-  );
+  )
 }
 
-export default SavedList;
+export default SavedList
